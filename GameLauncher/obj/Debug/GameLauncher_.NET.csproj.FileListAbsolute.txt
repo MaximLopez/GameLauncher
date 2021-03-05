@@ -1,0 +1,16 @@
+C:\Users\Maxim Lopez\source\repos\GameLauncher_.NET\GameLauncher_.NET\bin\Debug\GameLauncher_.NET.exe.config
+C:\Users\Maxim Lopez\source\repos\GameLauncher_.NET\GameLauncher_.NET\bin\Debug\GameLauncher_.NET.exe
+C:\Users\Maxim Lopez\source\repos\GameLauncher_.NET\GameLauncher_.NET\bin\Debug\GameLauncher_.NET.pdb
+C:\Users\Maxim Lopez\source\repos\GameLauncher_.NET\GameLauncher_.NET\obj\Debug\MainWindow.g.cs
+C:\Users\Maxim Lopez\source\repos\GameLauncher_.NET\GameLauncher_.NET\obj\Debug\App.g.cs
+C:\Users\Maxim Lopez\source\repos\GameLauncher_.NET\GameLauncher_.NET\obj\Debug\GameLauncher_.NET_MarkupCompile.cache
+C:\Users\Maxim Lopez\source\repos\GameLauncher_.NET\GameLauncher_.NET\obj\Debug\GameLauncher_.NET_MarkupCompile.lref
+C:\Users\Maxim Lopez\source\repos\GameLauncher_.NET\GameLauncher_.NET\obj\Debug\MainWindow.baml
+C:\Users\Maxim Lopez\source\repos\GameLauncher_.NET\GameLauncher_.NET\obj\Debug\GameLauncher_.NET.g.resources
+C:\Users\Maxim Lopez\source\repos\GameLauncher_.NET\GameLauncher_.NET\obj\Debug\GameLauncher_.NET.Properties.Resources.resources
+C:\Users\Maxim Lopez\source\repos\GameLauncher_.NET\GameLauncher_.NET\obj\Debug\GameLauncher_.NET.csproj.GenerateResource.cache
+C:\Users\Maxim Lopez\source\repos\GameLauncher_.NET\GameLauncher_.NET\obj\Debug\GameLauncher_.NET.csproj.CoreCompileInputs.cache
+C:\Users\Maxim Lopez\source\repos\GameLauncher_.NET\GameLauncher_.NET\obj\Debug\GameLauncher_.NET.exe
+C:\Users\Maxim Lopez\source\repos\GameLauncher_.NET\GameLauncher_.NET\obj\Debug\GameLauncher_.NET.pdb
+C:\Users\Maxim Lopez\source\repos\GameLauncher_.NET\GameLauncher_.NET\obj\Debug\GameLauncher_.NET_Content.g.cs
+C:\Users\Maxim Lopez\source\repos\GameLauncher_.NET\GameLauncher_.NET\obj\Debug\GameLauncher_.NET.csprojAssemblyReference.cache

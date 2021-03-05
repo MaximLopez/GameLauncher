@@ -1,0 +1,15 @@
+D:\Repository\GameLauncher\GameLauncher\bin\Debug\GameLauncher_.NET.exe.config
+D:\Repository\GameLauncher\GameLauncher\bin\Debug\GameLauncher_.NET.exe
+D:\Repository\GameLauncher\GameLauncher\bin\Debug\GameLauncher_.NET.pdb
+D:\Repository\GameLauncher\GameLauncher\obj\Debug\GameLauncher.csprojAssemblyReference.cache
+D:\Repository\GameLauncher\GameLauncher\obj\Debug\MainWindow.g.cs
+D:\Repository\GameLauncher\GameLauncher\obj\Debug\App.g.cs
+D:\Repository\GameLauncher\GameLauncher\obj\Debug\GameLauncher_.NET_MarkupCompile.cache
+D:\Repository\GameLauncher\GameLauncher\obj\Debug\GameLauncher_.NET_MarkupCompile.lref
+D:\Repository\GameLauncher\GameLauncher\obj\Debug\MainWindow.baml
+D:\Repository\GameLauncher\GameLauncher\obj\Debug\GameLauncher_.NET.g.resources
+D:\Repository\GameLauncher\GameLauncher\obj\Debug\GameLauncher_.NET.Properties.Resources.resources
+D:\Repository\GameLauncher\GameLauncher\obj\Debug\GameLauncher.csproj.GenerateResource.cache
+D:\Repository\GameLauncher\GameLauncher\obj\Debug\GameLauncher.csproj.CoreCompileInputs.cache
+D:\Repository\GameLauncher\GameLauncher\obj\Debug\GameLauncher_.NET.exe
+D:\Repository\GameLauncher\GameLauncher\obj\Debug\GameLauncher_.NET.pdb
