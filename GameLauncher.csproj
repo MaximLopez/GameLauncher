@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Graphics\BackgroundLauncher.png" />
+    <None Remove="Graphics\Backgrounds\BackgroundOG.jpg" />
+    <None Remove="Graphics\Icons\IconsDirectX11.png" />
+    <None Remove="Graphics\Icons\IconsExit.png" />
+    <None Remove="Graphics\Icons\IconsTwitter.png" />
+    <None Remove="Graphics\Icons\IconsVulkan.png" />
+    <None Remove="Graphics\Icons\IconsYouTube.png" />
+    <None Remove="Graphics\Ico\Application.ico" />
+    <None Remove="Graphics\Logo\GameLogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Graphics\Backgrounds\BackgroundLauncher.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Graphics\Backgrounds\BackgroundOG.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Graphics\Icons\IconsDirectX11.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Graphics\Icons\IconsExit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Graphics\Icons\IconsTwitter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Graphics\Icons\IconsVulkan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Graphics\Icons\IconsYouTube.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Graphics\Ico\Application.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Graphics\Logo\GameLogo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
