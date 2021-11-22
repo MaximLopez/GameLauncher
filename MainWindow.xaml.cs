@@ -24,5 +24,10 @@ namespace GameLauncher
         {
             InitializeComponent();
         }
+
+        private void ExitLauncher(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown(); /*Shutdown the application*/
+        }
     }
 }

@@ -12,11 +12,19 @@
   <ItemGroup>
     <None Remove="Graphics\Backgrounds\BackgroundLauncher.png" />
     <None Remove="Graphics\Backgrounds\BackgroundOG.jpg" />
+    <None Remove="Graphics\Icons\IconsAbout.png" />
     <None Remove="Graphics\Icons\IconsDirectX11.png" />
     <None Remove="Graphics\Icons\IconsExit.png" />
+    <None Remove="Graphics\Icons\IconsHelp.png" />
+    <None Remove="Graphics\Icons\IconsMail.png" />
+    <None Remove="Graphics\Icons\IconsPlay.png" />
+    <None Remove="Graphics\Icons\IconsReadme.png" />
+    <None Remove="Graphics\Icons\IconsSocial.png" />
     <None Remove="Graphics\Icons\IconsTwitter.png" />
+    <None Remove="Graphics\Icons\IconsUpdate.png" />
     <None Remove="Graphics\Icons\IconsVulkan.png" />
     <None Remove="Graphics\Icons\IconsYouTube.png" />
+    <None Remove="Graphics\Icons\Play\IconsDirectX12.png" />
     <None Remove="Graphics\Ico\Application.ico" />
     <None Remove="Graphics\Logo\GameLogo.png" />
   </ItemGroup>
@@ -32,19 +40,43 @@
     <Resource Include="Graphics\Backgrounds\BackgroundOG.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Graphics\Icons\IconsDirectX11.png">
+    <Resource Include="Graphics\Icons\Help\IconsAbout.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Graphics\Icons\IconsExit.png">
+    <Resource Include="Graphics\Icons\Play\IconsDirectX11.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Graphics\Icons\IconsTwitter.png">
+    <Resource Include="Graphics\Icons\Play\IconsDirectX12.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Graphics\Icons\IconsVulkan.png">
+    <Resource Include="Graphics\Icons\Play\IconsExit.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Graphics\Icons\IconsYouTube.png">
+    <Resource Include="Graphics\Icons\Help\IconsHelp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Graphics\Icons\Help\IconsMail.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Graphics\Icons\Play\IconsPlay.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Graphics\Icons\Help\IconsReadme.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Graphics\Icons\Social\IconsSocial.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Graphics\Icons\Social\IconsTwitter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Graphics\Icons\Help\IconsUpdate.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Graphics\Icons\Play\IconsVulkan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Graphics\Icons\Social\IconsYouTube.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Graphics\Ico\Application.ico">
