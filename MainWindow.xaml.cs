@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,6 +29,54 @@ namespace GameLauncher
         private void ExitLauncher(object sender, RoutedEventArgs e)
         {
             System.Windows.Application.Current.Shutdown(); /*Shutdown the application*/
+        }
+
+        private void OpenAboutWindow(object sender, RoutedEventArgs e)
+        {
+            //Launch the about Window
+        }
+
+        private void OpenReadMe(object sender, RoutedEventArgs e)
+        {
+            Launcher.ReadMe();
+        }
+
+        private void OpenItch(object sender, RoutedEventArgs e)
+        {
+            Launcher.LaunchWebsite("https://bad-weather-studios.itch.io/");
+        }
+
+        private void OpenGamejolt(object sender, RoutedEventArgs e)
+        {
+            Launcher.LaunchWebsite("https://gamejolt.com/@BadWeatherStudios");
+        }
+
+        private void OpenTwitter(object sender, RoutedEventArgs e)
+        {
+            Launcher.LaunchWebsite("https://twitter.com/BWeatherStudios");
+        }
+
+        private void OpenYoutube(object sender, RoutedEventArgs e)
+        {
+            Launcher.LaunchWebsite("https://www.youtube.com/channel/UCwinvOEmiGcHRrL4Q3Zaw_Q");
+        }
+
+        private void OpenD3D11(object sender, RoutedEventArgs e)
+        {
+            Launcher.GameD3D11();
+            System.Windows.Application.Current.Shutdown();
+        }
+
+        private void OpenD3D12(object sender, RoutedEventArgs e)
+        {
+            Launcher.GameD3D12();
+            System.Windows.Application.Current.Shutdown();
+        }
+
+        private void OpenVulkan(object sender, RoutedEventArgs e)
+        {
+            Launcher.GameVulkan();
+            System.Windows.Application.Current.Shutdown();
         }
     }
 }

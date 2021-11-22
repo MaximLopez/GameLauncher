@@ -9,6 +9,6 @@
 
 ## Required
 - Visual Studio 2022
-- .Net Core 3.1
+- .Net Core 3.1 (test to use .Net 4.78)
 - C#
 - WPF

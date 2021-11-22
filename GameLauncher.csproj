@@ -30,7 +30,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Graphics\Logo\GameLogo.png" />
+    <Content Include="Graphics\Ico\Application.ico" />
+    <Content Include="Graphics\Logo\GameLogo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
