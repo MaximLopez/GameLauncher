@@ -38,27 +38,27 @@ namespace GameLauncher
 
         private void OpenReadMe(object sender, RoutedEventArgs e)
         {
-            Launcher.ReadMe();
+            Launcher.ReadMe(); /*Open the ReadMe*/
         }
 
         private void OpenItch(object sender, RoutedEventArgs e)
         {
-            Launcher.LaunchWebsite("https://bad-weather-studios.itch.io/");
+            Launcher.LaunchWebsite("https://bad-weather-studios.itch.io/"); /*Open the website - Itch.io*/
         }
 
         private void OpenGamejolt(object sender, RoutedEventArgs e)
         {
-            Launcher.LaunchWebsite("https://gamejolt.com/@BadWeatherStudios");
+            Launcher.LaunchWebsite("https://gamejolt.com/@BadWeatherStudios"); /*Open the website - GameJolt*/
         }
 
         private void OpenTwitter(object sender, RoutedEventArgs e)
         {
-            Launcher.LaunchWebsite("https://twitter.com/BWeatherStudios");
+            Launcher.LaunchWebsite("https://twitter.com/BWeatherStudios"); /*Open the website - Twitter*/
         }
 
         private void OpenYoutube(object sender, RoutedEventArgs e)
         {
-            Launcher.LaunchWebsite("https://www.youtube.com/channel/UCwinvOEmiGcHRrL4Q3Zaw_Q");
+            Launcher.LaunchWebsite("https://www.youtube.com/channel/UCwinvOEmiGcHRrL4Q3Zaw_Q"); /*Open the website - YouTube*/
         }
 
         private void OpenD3D11(object sender, RoutedEventArgs e)
