@@ -5,72 +5,132 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GameLauncher"
         mc:Ignorable="d"
-        Title="Name of the game" Height="450" Width="800" ResizeMode="CanMinimize">
+        Title="Name of the game" Height="450" Width="800" ResizeMode="CanMinimize" Icon="/Graphics/Ico/Application.ico" MinWidth="800" MinHeight="450" MaxWidth="800" MaxHeight="446">
     <DockPanel>
+        <!--Panel-->
         <Menu DockPanel.Dock="Top">
-            <MenuItem Header="_Play">
+            <!--Play menu-->
+            <MenuItem Header="_Play" ToolTip="Play the game" ToolTipService.ShowDuration="5000">
+                <!--Play menu-->
                 <MenuItem.Icon>
                     <Image Source="/Graphics/Icons/IconsTwitter.png" />
                 </MenuItem.Icon>
                 <MenuItem Header="_Launch with DirectX 11">
+                    <!--Launch with DX11-->
                     <MenuItem.Icon>
                         <Image Source="/Graphics/Icons/IconsDirectX11.png" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <MenuItem Header="_Launch with DirectX 12">
+                    <!--Launch with DX12-->
                     <MenuItem.Icon>
                         <Image Source="/Graphics/Icons/IconsDirectX11.png" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <MenuItem Header="_Launch with Vulkan">
+                    <!--Launch with Vulkan-->
                     <MenuItem.Icon>
                         <Image Source="/Graphics/Icons/IconsVulkan.png" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <Separator></Separator>
-                <MenuItem Header="_Exit">
+                <!--Separator-->
+                <MenuItem Header="_Quit the launcher">
+                    <!--Quit the launcher-->
                     <MenuItem.Icon>
                         <Image Source="/Graphics/Icons/IconsExit.png" />
                     </MenuItem.Icon>
                 </MenuItem>
             </MenuItem>
-            <MenuItem Header="_Social">
+            <!--Play menu-End-->
+            <!--Social menu-->
+            <MenuItem Header="_Social" ToolTip="Go the social networks" ToolTipService.ShowDuration="5000">
+                <!--Social menu-->
                 <MenuItem.Icon>
                     <Image Source="/Graphics/Icons/IconsTwitter.png" />
                 </MenuItem.Icon>
                 <MenuItem Header="_Twitter">
+                    <!--Go to the twitter-->
                     <MenuItem.Icon>
                         <Image Source="/Graphics/Icons/IconsTwitter.png" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <MenuItem Header="_YouTube">
+                    <!--Go to the YouTube-->
                     <MenuItem.Icon>
                         <Image Source="/Graphics/Icons/IconsYouTube.png" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <Separator></Separator>
-                <MenuItem Header="_Itch.io"></MenuItem>
-                <MenuItem Header="_GameJolt"></MenuItem>
+                <!--Separator-->
+                <MenuItem Header="_Itch.io">
+                    <MenuItem.Icon>
+                        <Image Source="/Graphics/Icons/IconsYouTube.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <!--Go to the Itch.io-->
+                <MenuItem Header="_GameJolt">
+                    <MenuItem.Icon>
+                        <Image Source="/Graphics/Icons/IconsYouTube.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <!--Go to the GameJolt-->
             </MenuItem>
-            <MenuItem Header="_Help">
+            <!--Social menu-End-->
+            <!--Help menu-->
+            <MenuItem Header="_Help" ToolTip="You need help ? Find useful links here.">
+                <!--Help menu-->
                 <MenuItem.Icon>
                     <Image Source="/Graphics/Icons/IconsTwitter.png" />
                 </MenuItem.Icon>
-                <MenuItem Header="_Send a mail"></MenuItem>
+                <MenuItem Header="_Open the ReadMe">
+                    <!--Open the ReadMe-->
+                    <MenuItem.Icon>
+                        <Image Source="/Graphics/Icons/IconsTwitter.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
                 <Separator></Separator>
-                <MenuItem Header="_Check for updates"></MenuItem>
+                <!--Separator-->
+                <MenuItem Header="_Send a mail">
+                    <!--Send a mail-->
+                    <MenuItem.Icon>
+                        <Image Source="/Graphics/Icons/IconsTwitter.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
                 <Separator></Separator>
-                <MenuItem Header="_About"></MenuItem>
+                <!--Separator-->
+                <MenuItem Header="_Check for updates">
+                    <!--Check for updates-->
+                    <MenuItem.Icon>
+                        <Image Source="/Graphics/Icons/IconsTwitter.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator></Separator>
+                <!--Separator-->
+                <MenuItem Header="_About">
+                    <!--About-->
+                    <MenuItem.Icon>
+                        <Image Source="/Graphics/Icons/IconsTwitter.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
             </MenuItem>
+            <!--Help menu-End-->
         </Menu>
+        <!--Panel-End-->
 
         <Grid>
             <Image x:Name="BackgroundLauncher" Source="/Graphics/Backgrounds/BackgroundLauncher.png" Stretch="Fill" Width="800"/>
+            <!--Background-->
             <Image x:Name="___Graphics_Logo_GameLogo_png" Margin="101,62,246,99" Source="/Graphics/Logo/GameLogo.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5"/>
-            <TextBlock x:Name="VersionInfo" HorizontalAlignment="Left" Margin="712,371,0,0" TextWrapping="Wrap" Text="V1.0.0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="1,1"/>
-            <Button x:Name="ButtonDirectX11" Content="DirectX 11" HorizontalAlignment="Left" Margin="101,357,0,0" VerticalAlignment="Top" Height="30" Width="120" RenderTransformOrigin="0.5,1"/>
-            <Button x:Name="ButtonDirectX12" Content="DirectX 12" HorizontalAlignment="Left" Margin="265,357,0,0" VerticalAlignment="Top" Height="30" Width="120" RenderTransformOrigin="0.5,1"/>
-            <Button x:Name="ButtonVulkan" Content="Vulkan" HorizontalAlignment="Left" Margin="434,359,0,0" VerticalAlignment="Top" Height="30" Width="120" RenderTransformOrigin="0.5,1"/>
+            <!--Game's logo-->
+            <TextBlock x:Name="VersionInfo" HorizontalAlignment="Left" Margin="712,359,0,0" TextWrapping="Wrap" Text="V1.0.0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="1,1"/>
+            <!--Version number-->
+            <Button x:Name="ButtonDirectX11" Content="DirectX 11" HorizontalAlignment="Left" Margin="101,345,0,0" VerticalAlignment="Top" Height="30" Width="120" RenderTransformOrigin="0.5,1" ToolTip="Launch the game with DirectX 11" ToolTipService.ShowDuration="5000"/>
+            <!--Button DirectX11-->
+            <Button x:Name="ButtonDirectX12" Content="DirectX 12" HorizontalAlignment="Left" Margin="265,345,0,0" VerticalAlignment="Top" Height="30" Width="120" RenderTransformOrigin="0.5,1" ToolTip="Launch the game with DirectX 12" ToolTipService.ShowDuration="5000"/>
+            <!--Button DirectX12-->
+            <Button x:Name="ButtonVulkan" Content="Vulkan" HorizontalAlignment="Left" Margin="434,347,0,0" VerticalAlignment="Top" Height="30" Width="120" RenderTransformOrigin="0.5,1" ToolTip="Launch the game with Vulkan" ToolTipService.ShowDuration="5000"/>
+            <!--Button-Vulkan-->
         </Grid>
     </DockPanel>
 </Window>
