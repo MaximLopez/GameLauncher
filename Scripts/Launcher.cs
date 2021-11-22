@@ -29,5 +29,9 @@ namespace GameLauncher
         {
             Process.Start("TheStrangeLaboratory.exe","-vulkan");
         }
+        public static void SendMail()
+        {
+            Process.Start("mailto:contact.badweatherstudios@gmail.com");
+        }
     }
 }

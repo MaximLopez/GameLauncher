@@ -78,5 +78,10 @@ namespace GameLauncher
             Launcher.GameVulkan();
             System.Windows.Application.Current.Shutdown();
         }
+
+        private void SendMail(object sender, RoutedEventArgs e)
+        {
+            Launcher.SendMail();
+        }
     }
 }

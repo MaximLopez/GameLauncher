@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GameLauncher"
         mc:Ignorable="d"
-        Title="Name of the game" Height="474" Width="800" ResizeMode="CanMinimize" MinWidth="800" MinHeight="474" MaxWidth="800" MaxHeight="474" SizeToContent="Height">
+        Title="Name of the game" Height="450" Width="800" ResizeMode="CanMinimize" MinWidth="800" MinHeight="450" MaxWidth="800" MaxHeight="450" SizeToContent="Height">
     <DockPanel>
         <!--Panel-->
         <Menu DockPanel.Dock="Top">
@@ -91,7 +91,7 @@
                 </MenuItem>
                 <Separator></Separator>
                 <!--Separator-->
-                <MenuItem Header="_Send a mail">
+                <MenuItem Header="_Send a mail" Click="SendMail">
                     <!--Send a mail-->
                     <MenuItem.Icon>
                         <Image Source="/Graphics/Icons/Help/IconsMail.png"/>
@@ -118,14 +118,14 @@
         </Menu>
         <!--Panel-End-->
         <!--StatusBar-->
-        <StatusBar DockPanel.Dock="Bottom">
+        <!--<StatusBar DockPanel.Dock="Bottom">
             <TextBlock>Hello world !</TextBlock>
-        </StatusBar>
+        </StatusBar>-->
         <!--StatusBar-End-->
         <Grid>
             <Image x:Name="BackgroundLauncher" Source="/Graphics/Backgrounds/BackgroundLauncher.png" Stretch="Fill" Width="800"/>
             <!--Background-->
-            <Image x:Name="___Graphics_Logo_GameLogo_png" Margin="208,62,139,99" Source="/Graphics/Logo/GameLogo.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Width="Auto"/>
+            <!--<Image x:Name="___Graphics_Logo_GameLogo_png" Margin="208,62,139,99" Source="/Graphics/Logo/GameLogo.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Width="Auto"/>-->
             <!--Game's logo-->
             <TextBlock x:Name="VersionInfo" HorizontalAlignment="Left" Margin="712,339,0,0" TextWrapping="Wrap" Text="V1.0.0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="1,1"/>
             <!--Version number-->
