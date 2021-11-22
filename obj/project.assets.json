@@ -9,19 +9,19 @@
     ".NETFramework,Version=v4.8": []
   },
   "packageFolders": {
-    "C:\\Users\\Maxim Lopez\\.nuget\\packages\\": {}
+    "C:\\Users\\maxim\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Maxim\\Repository\\GameLauncher\\GameLauncher.csproj",
+      "projectUniqueName": "E:\\maxim\\Documents\\Game developpement\\GameLauncher\\GameLauncher.csproj",
       "projectName": "GameLauncher",
-      "projectPath": "G:\\Maxim\\Repository\\GameLauncher\\GameLauncher.csproj",
-      "packagesPath": "C:\\Users\\Maxim Lopez\\.nuget\\packages\\",
-      "outputPath": "G:\\Maxim\\Repository\\GameLauncher\\obj\\",
+      "projectPath": "E:\\maxim\\Documents\\Game developpement\\GameLauncher\\GameLauncher.csproj",
+      "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
+      "outputPath": "E:\\maxim\\Documents\\Game developpement\\GameLauncher\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Maxim Lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -4,14 +4,14 @@
 winexe
 C#
 .cs
-G:\Maxim\Repository\GameLauncher\obj\Release\net48\
+E:\maxim\Documents\Game developpement\GameLauncher\obj\Release\net48\
 GameLauncher
 none
 false
 TRACE;RELEASE;NETFRAMEWORK;NET48;
-G:\Maxim\Repository\GameLauncher\App.xaml
+E:\maxim\Documents\Game developpement\GameLauncher\App.xaml
 11407045341
-2-255219502
+1580220279
 4141319999
 19540559201
 MainWindow.xaml;

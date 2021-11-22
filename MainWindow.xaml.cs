@@ -63,19 +63,19 @@ namespace GameLauncher
 
         private void OpenD3D11(object sender, RoutedEventArgs e)
         {
-            Launcher.GameD3D11();
+            Launcher.LaunchGame("TheStrangeLaboratory.exe","-D3D11");
             System.Windows.Application.Current.Shutdown();
         }
 
         private void OpenD3D12(object sender, RoutedEventArgs e)
         {
-            Launcher.GameD3D12();
+            Launcher.LaunchGame("TheStrangeLaboratory.exe", "-D3D12");
             System.Windows.Application.Current.Shutdown();
         }
 
         private void OpenVulkan(object sender, RoutedEventArgs e)
         {
-            Launcher.GameVulkan();
+            Launcher.LaunchGame("TheStrangeLaboratory.exe", "-vulkan");
             System.Windows.Application.Current.Shutdown();
         }
 

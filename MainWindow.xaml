@@ -8,10 +8,9 @@
         Title="Name of the game" Height="450" Width="800" ResizeMode="CanMinimize" MinWidth="800" MinHeight="450" MaxWidth="800" MaxHeight="450" SizeToContent="Height">
     <DockPanel>
         <!--Panel-->
-        <Menu DockPanel.Dock="Top">
+        <Menu DockPanel.Dock="Top" RenderTransformOrigin="0.5,0" Background="Black" Foreground="White">
             <!--Play menu-->
             <MenuItem Header="_Play" ToolTip="Play the game" ToolTipService.ShowDuration="5000">
-                <!--Play menu-->
                 <MenuItem.Icon>
                     <Image Source="/Graphics/Icons/Play/IconsPlay.png"/>
                 </MenuItem.Icon>
@@ -118,31 +117,22 @@
         </Menu>
         <!--Panel-End-->
         <!--StatusBar-->
-        <!--<StatusBar DockPanel.Dock="Bottom">
-            <TextBlock>Hello world !</TextBlock>
-        </StatusBar>-->
+        <StatusBar DockPanel.Dock="Bottom" RenderTransformOrigin="0.5,1" Background="Black">
+            <MenuItem Header="Twitter" ToolTip="Go to the Twitter" ToolTipService.ShowDuration="5000" Click="OpenTwitter" HorizontalAlignment="Left" VerticalAlignment="Center" Background="Black" Foreground="White"></MenuItem>
+            <MenuItem Header="YouTube" ToolTip="Go to the YouTube" ToolTipService.ShowDuration="5000" Click="OpenYoutube" HorizontalAlignment="Left" VerticalAlignment="Center" Background="Black" Foreground="White"></MenuItem>
+            <Separator Background="White"></Separator>
+            <MenuItem Header="Itch.io" ToolTip="Go to the Itch.io" ToolTipService.ShowDuration="5000" Click="OpenItch" HorizontalAlignment="Left" VerticalAlignment="Center" Background="Black" Foreground="White"></MenuItem>
+            <MenuItem Header="GameJolt" ToolTip="Go to the GameJolt" ToolTipService.ShowDuration="5000" Click="OpenGamejolt" HorizontalAlignment="Left" VerticalAlignment="Center" Background="Black" Foreground="White"></MenuItem>
+            <Separator Background="White"></Separator>
+            <TextBlock HorizontalAlignment="Right" Foreground="White">Version 1.0.0</TextBlock>
+        </StatusBar>
         <!--StatusBar-End-->
         <Grid>
-            <Image x:Name="BackgroundLauncher" Source="/Graphics/Backgrounds/BackgroundLauncher.png" Stretch="Fill" Width="800"/>
+            <Image x:Name="BackgroundLauncher" Source="/Graphics/Backgrounds/BackgroundLauncher.png" Stretch="Fill" Width="800" Height="380"/>
             <!--Background-->
-            <!--<Image x:Name="___Graphics_Logo_GameLogo_png" Margin="208,62,139,99" Source="/Graphics/Logo/GameLogo.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Width="Auto"/>-->
-            <!--Game's logo-->
-            <TextBlock x:Name="VersionInfo" HorizontalAlignment="Left" Margin="712,339,0,0" TextWrapping="Wrap" Text="V1.0.0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="1,1"/>
-            <!--Version number-->
-            <Button x:Name="ButtonDirectX11" Content="DirectX 11" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Height="30" Width="120" RenderTransformOrigin="0.5,1" ToolTip="Launch the game with DirectX 11" ToolTipService.ShowDuration="5000" Click="OpenD3D11"/>
-            <!--Button DirectX11-->
-            <Button x:Name="ButtonDirectX12" Content="DirectX 12" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Height="30" Width="120" RenderTransformOrigin="0.5,1" ToolTip="Launch the game with DirectX 12" ToolTipService.ShowDuration="5000" Click="OpenD3D12"/>
-            <!--Button DirectX12-->
-            <Button x:Name="ButtonVulkan" Content="Vulkan" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Height="30" Width="120" RenderTransformOrigin="0.5,1" ToolTip="Launch the game with Vulkan" ToolTipService.ShowDuration="5000" Click="OpenVulkan"/>
+            <Button x:Name="ButtonVulkan" Content="Play" HorizontalAlignment="Left" Margin="599,296,0,0" VerticalAlignment="Top" Height="49" Width="162" RenderTransformOrigin="1,1" ToolTip="Launch the game with Vulkan" ToolTipService.ShowDuration="5000" Click="OpenVulkan"/>
+            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="599,268,0,0" VerticalAlignment="Top" Width="162"/>
             <!--Button-Vulkan-->
-            <Button x:Name="ButtonTwitter" Content="Twitter" HorizontalAlignment="Left" Margin="10,217,0,0" VerticalAlignment="Top" Height="30" Width="120" RenderTransformOrigin="0.5,1" ToolTip="Go to the Twitter" ToolTipService.ShowDuration="5000" Click="OpenTwitter"/>
-            <!--Button Twitter-->
-            <Button x:Name="ButtonYouTube" Content="YouTube" HorizontalAlignment="Left" Margin="10,252,0,0" VerticalAlignment="Top" Height="30" Width="120" RenderTransformOrigin="0.5,1" ToolTip="Go to the YouTube" ToolTipService.ShowDuration="5000" Click="OpenYoutube"/>
-            <!--Button YouTube-->
-            <Button x:Name="ButtonItch" Content="Itch.io" HorizontalAlignment="Left" Margin="10,287,0,0" VerticalAlignment="Top" Height="30" Width="120" RenderTransformOrigin="0.5,1" ToolTip="Go to the Itch.io" ToolTipService.ShowDuration="5000" Click="OpenItch"/>
-            <!--Button Itch-->
-            <Button x:Name="ButtonGameJolt" Content="GameJolt" HorizontalAlignment="Left" Margin="10,322,0,0" VerticalAlignment="Top" Height="30" Width="120" RenderTransformOrigin="0.5,1" ToolTip="Go to the GameJolt" ToolTipService.ShowDuration="5000" Click="OpenGamejolt"/>
-            <!--Button GameJolt-->
         </Grid>
     </DockPanel>
 </Window>

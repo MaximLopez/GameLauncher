@@ -11,7 +11,6 @@
 
   <ItemGroup>
     <None Remove="Graphics\Backgrounds\BackgroundLauncher.png" />
-    <None Remove="Graphics\Backgrounds\BackgroundOG.jpg" />
     <None Remove="Graphics\Icons\IconsAbout.png" />
     <None Remove="Graphics\Icons\IconsDirectX11.png" />
     <None Remove="Graphics\Icons\IconsExit.png" />
@@ -26,21 +25,14 @@
     <None Remove="Graphics\Icons\IconsYouTube.png" />
     <None Remove="Graphics\Icons\Play\IconsDirectX12.png" />
     <None Remove="Graphics\Ico\Application.ico" />
-    <None Remove="Graphics\Logo\GameLogo.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Graphics\Ico\Application.ico" />
-    <Content Include="Graphics\Logo\GameLogo.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Graphics\Backgrounds\BackgroundLauncher.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Graphics\Backgrounds\BackgroundOG.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Graphics\Icons\Help\IconsAbout.png">
@@ -83,9 +75,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Graphics\Ico\Application.ico">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="Graphics\Logo\GameLogo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>

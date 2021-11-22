@@ -15,3 +15,19 @@ G:\Maxim\Repository\GameLauncher\obj\Release\net48\GameLauncher.exe
 G:\Maxim\Repository\GameLauncher\obj\Release\net48\MainWindow.g.cs
 G:\Maxim\Repository\GameLauncher\obj\Release\net48\MainWindow.baml
 G:\Maxim\Repository\GameLauncher\bin\Release\net48\Graphics\Logo\GameLogo.png
+E:\maxim\Documents\Game developpement\GameLauncher\bin\Release\net48\GameLauncher.exe.config
+E:\maxim\Documents\Game developpement\GameLauncher\bin\Release\net48\GameLauncher.exe
+E:\maxim\Documents\Game developpement\GameLauncher\obj\Release\net48\GameLauncher.csproj.AssemblyReference.cache
+E:\maxim\Documents\Game developpement\GameLauncher\obj\Release\net48\GameLauncher.csproj.SuggestedBindingRedirects.cache
+E:\maxim\Documents\Game developpement\GameLauncher\obj\Release\net48\MainWindow.g.cs
+E:\maxim\Documents\Game developpement\GameLauncher\obj\Release\net48\App.g.cs
+E:\maxim\Documents\Game developpement\GameLauncher\obj\Release\net48\GameLauncher_Content.g.cs
+E:\maxim\Documents\Game developpement\GameLauncher\obj\Release\net48\GameLauncher_MarkupCompile.cache
+E:\maxim\Documents\Game developpement\GameLauncher\obj\Release\net48\GameLauncher_MarkupCompile.lref
+E:\maxim\Documents\Game developpement\GameLauncher\obj\Release\net48\MainWindow.baml
+E:\maxim\Documents\Game developpement\GameLauncher\obj\Release\net48\GameLauncher.g.resources
+E:\maxim\Documents\Game developpement\GameLauncher\obj\Release\net48\GameLauncher.GeneratedMSBuildEditorConfig.editorconfig
+E:\maxim\Documents\Game developpement\GameLauncher\obj\Release\net48\GameLauncher.AssemblyInfoInputs.cache
+E:\maxim\Documents\Game developpement\GameLauncher\obj\Release\net48\GameLauncher.AssemblyInfo.cs
+E:\maxim\Documents\Game developpement\GameLauncher\obj\Release\net48\GameLauncher.csproj.CoreCompileInputs.cache
+E:\maxim\Documents\Game developpement\GameLauncher\obj\Release\net48\GameLauncher.exe

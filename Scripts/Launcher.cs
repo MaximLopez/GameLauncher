@@ -17,17 +17,9 @@ namespace GameLauncher
         {
             Process.Start(url);
         }
-        public static void GameD3D11()
+        public static void LaunchGame(string name, string argument)
         {
-            Process.Start("TheStrangeLaboratory.exe");
-        }
-        public static void GameD3D12()
-        {
-            Process.Start("TheStrangeLaboratory.exe","-D3D12");
-        }
-        public static void GameVulkan()
-        {
-            Process.Start("TheStrangeLaboratory.exe","-vulkan");
+            Process.Start(name, argument);
         }
         public static void SendMail()
         {
