@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Graphics\BackgroundLauncher.png" />
+    <None Remove="Graphics\Backgrounds\BackgroundLauncher.png" />
     <None Remove="Graphics\Backgrounds\BackgroundOG.jpg" />
     <None Remove="Graphics\Icons\IconsDirectX11.png" />
     <None Remove="Graphics\Icons\IconsExit.png" />

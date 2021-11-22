@@ -5,24 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GameLauncher"
         mc:Ignorable="d"
-        Title="Name of the game" Height="450" Width="800" ResizeMode="CanMinimize" Icon="/Graphics/Ico/Application.ico">
+        Title="Name of the game" Height="450" Width="800" ResizeMode="CanMinimize">
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_Play">
                 <MenuItem.Icon>
                     <Image Source="/Graphics/Icons/IconsTwitter.png" />
                 </MenuItem.Icon>
-                <MenuItem Header="_DirectX 11">
+                <MenuItem Header="_Launch with DirectX 11">
                     <MenuItem.Icon>
                         <Image Source="/Graphics/Icons/IconsDirectX11.png" />
                     </MenuItem.Icon>
                 </MenuItem>
-                <MenuItem Header="_DirectX 12">
+                <MenuItem Header="_Launch with DirectX 12">
                     <MenuItem.Icon>
                         <Image Source="/Graphics/Icons/IconsDirectX11.png" />
                     </MenuItem.Icon>
                 </MenuItem>
-                <MenuItem Header="_Vulkan">
+                <MenuItem Header="_Launch with Vulkan">
                     <MenuItem.Icon>
                         <Image Source="/Graphics/Icons/IconsVulkan.png" />
                     </MenuItem.Icon>
@@ -65,12 +65,12 @@
         </Menu>
 
         <Grid>
-            <Image x:Name="BackgroundLauncher" Margin="0,0,0,-16" Source="/Graphics/Backgrounds/BackgroundLauncher.png" Stretch="Fill"/>
+            <Image x:Name="BackgroundLauncher" Source="/Graphics/Backgrounds/BackgroundLauncher.png" Stretch="Fill" Width="800"/>
             <Image x:Name="___Graphics_Logo_GameLogo_png" Margin="101,62,246,99" Source="/Graphics/Logo/GameLogo.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5"/>
-            <TextBlock x:Name="VersionInfo" HorizontalAlignment="Left" Margin="712,390,0,0" TextWrapping="Wrap" Text="V1.0.0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="0.5,0.5"/>
-            <Button x:Name="ButtonDirectX11" Content="DirectX 11" HorizontalAlignment="Left" Margin="34,368,0,0" VerticalAlignment="Top" Height="30" Width="120"/>
-            <Button x:Name="ButtonDirectX12" Content="DirectX 12" HorizontalAlignment="Left" Margin="34,368,0,0" VerticalAlignment="Top" Height="30" Width="120"/>
-            <Button x:Name="ButtonVulkan" Content="Vulkan" HorizontalAlignment="Left" Margin="34,368,0,0" VerticalAlignment="Top" Height="30" Width="120"/>
+            <TextBlock x:Name="VersionInfo" HorizontalAlignment="Left" Margin="712,371,0,0" TextWrapping="Wrap" Text="V1.0.0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="1,1"/>
+            <Button x:Name="ButtonDirectX11" Content="DirectX 11" HorizontalAlignment="Left" Margin="101,357,0,0" VerticalAlignment="Top" Height="30" Width="120" RenderTransformOrigin="0.5,1"/>
+            <Button x:Name="ButtonDirectX12" Content="DirectX 12" HorizontalAlignment="Left" Margin="265,357,0,0" VerticalAlignment="Top" Height="30" Width="120" RenderTransformOrigin="0.5,1"/>
+            <Button x:Name="ButtonVulkan" Content="Vulkan" HorizontalAlignment="Left" Margin="434,359,0,0" VerticalAlignment="Top" Height="30" Width="120" RenderTransformOrigin="0.5,1"/>
         </Grid>
     </DockPanel>
 </Window>
