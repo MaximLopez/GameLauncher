@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\maxim\\Documents\\Game developpement\\GameLauncher\\GameLauncher.csproj": {}
+    "C:\\Users\\maxim\\Documents\\Repository\\GameLauncher\\GameLauncher.csproj": {}
   },
   "projects": {
-    "E:\\maxim\\Documents\\Game developpement\\GameLauncher\\GameLauncher.csproj": {
+    "C:\\Users\\maxim\\Documents\\Repository\\GameLauncher\\GameLauncher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\maxim\\Documents\\Game developpement\\GameLauncher\\GameLauncher.csproj",
+        "projectUniqueName": "C:\\Users\\maxim\\Documents\\Repository\\GameLauncher\\GameLauncher.csproj",
         "projectName": "GameLauncher",
-        "projectPath": "E:\\maxim\\Documents\\Game developpement\\GameLauncher\\GameLauncher.csproj",
+        "projectPath": "C:\\Users\\maxim\\Documents\\Repository\\GameLauncher\\GameLauncher.csproj",
         "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
-        "outputPath": "E:\\maxim\\Documents\\Game developpement\\GameLauncher\\obj\\",
+        "outputPath": "C:\\Users\\maxim\\Documents\\Repository\\GameLauncher\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
