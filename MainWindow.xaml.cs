@@ -83,5 +83,10 @@ namespace GameLauncher
         {
             Launcher.SendMail(); /*Launch a instance to send a mail via client(Outlook, Thunderbird,...)*/
         }
+
+        private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

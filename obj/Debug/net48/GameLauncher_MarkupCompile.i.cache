@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-G:\Maxim\Repository\GameLauncher\obj\Debug\net48\
+C:\Users\maxim\Documents\Repository\GameLauncher\obj\Debug\net48\
 GameLauncher
 none
 false
 TRACE;DEBUG;NETFRAMEWORK;NET48;
-G:\Maxim\Repository\GameLauncher\App.xaml
+C:\Users\maxim\Documents\Repository\GameLauncher\App.xaml
 11407045341
 1580220279
-5-1626063240
+6-251573684
 19540559201
 MainWindow.xaml;
 
-False
+True
 

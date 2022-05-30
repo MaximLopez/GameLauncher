@@ -1,0 +1,17 @@
+C:\Users\maxim\Documents\Repository\GameLauncher\bin\Debug\net48\Graphics\Ico\Application.ico
+C:\Users\maxim\Documents\Repository\GameLauncher\bin\Debug\net48\GameLauncher.exe.config
+C:\Users\maxim\Documents\Repository\GameLauncher\bin\Debug\net48\GameLauncher.exe
+C:\Users\maxim\Documents\Repository\GameLauncher\obj\Debug\net48\GameLauncher.csproj.AssemblyReference.cache
+C:\Users\maxim\Documents\Repository\GameLauncher\obj\Debug\net48\GameLauncher.csproj.SuggestedBindingRedirects.cache
+C:\Users\maxim\Documents\Repository\GameLauncher\obj\Debug\net48\MainWindow.g.cs
+C:\Users\maxim\Documents\Repository\GameLauncher\obj\Debug\net48\App.g.cs
+C:\Users\maxim\Documents\Repository\GameLauncher\obj\Debug\net48\GameLauncher_Content.g.cs
+C:\Users\maxim\Documents\Repository\GameLauncher\obj\Debug\net48\GameLauncher_MarkupCompile.cache
+C:\Users\maxim\Documents\Repository\GameLauncher\obj\Debug\net48\GameLauncher_MarkupCompile.lref
+C:\Users\maxim\Documents\Repository\GameLauncher\obj\Debug\net48\MainWindow.baml
+C:\Users\maxim\Documents\Repository\GameLauncher\obj\Debug\net48\GameLauncher.g.resources
+C:\Users\maxim\Documents\Repository\GameLauncher\obj\Debug\net48\GameLauncher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxim\Documents\Repository\GameLauncher\obj\Debug\net48\GameLauncher.AssemblyInfoInputs.cache
+C:\Users\maxim\Documents\Repository\GameLauncher\obj\Debug\net48\GameLauncher.AssemblyInfo.cs
+C:\Users\maxim\Documents\Repository\GameLauncher\obj\Debug\net48\GameLauncher.csproj.CoreCompileInputs.cache
+C:\Users\maxim\Documents\Repository\GameLauncher\obj\Debug\net48\GameLauncher.exe

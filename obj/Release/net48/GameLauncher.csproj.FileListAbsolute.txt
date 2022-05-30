@@ -47,3 +47,4 @@ C:\Users\maxim\Documents\Repository\GameLauncher\obj\Release\net48\GameLauncher.
 C:\Users\maxim\Documents\Repository\GameLauncher\obj\Release\net48\GameLauncher.AssemblyInfo.cs
 C:\Users\maxim\Documents\Repository\GameLauncher\obj\Release\net48\GameLauncher.csproj.CoreCompileInputs.cache
 C:\Users\maxim\Documents\Repository\GameLauncher\obj\Release\net48\GameLauncher.exe
+C:\Users\maxim\Documents\Repository\GameLauncher\bin\Release\net48\Application.ico

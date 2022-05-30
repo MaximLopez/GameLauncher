@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GameLauncher"
         mc:Ignorable="d"
-        Title="Name of the game" Height="450" Width="800" ResizeMode="CanMinimize" MinWidth="800" MinHeight="450" MaxWidth="800" MaxHeight="450" SizeToContent="Height">
+        Title="The Strange Laboratory" Height="450" Width="800" ResizeMode="CanMinimize" MinWidth="800" MinHeight="450" MaxWidth="800" MaxHeight="450" SizeToContent="Height">
     <DockPanel>
         <!--Panel-->
         <Menu DockPanel.Dock="Top" RenderTransformOrigin="0.5,0" Background="Black" Foreground="White">
@@ -131,7 +131,10 @@
             <Image x:Name="BackgroundLauncher" Source="/Graphics/Backgrounds/BackgroundLauncher.png" Stretch="Fill" Width="800" Height="380"/>
             <!--Background-->
             <Button x:Name="ButtonVulkan" Content="Play" HorizontalAlignment="Left" Margin="599,296,0,0" VerticalAlignment="Top" Height="49" Width="162" RenderTransformOrigin="1,1" ToolTip="Launch the game with Vulkan" ToolTipService.ShowDuration="5000" Click="OpenVulkan"/>
-            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="599,268,0,0" VerticalAlignment="Top" Width="162"/>
+            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="599,268,0,0" VerticalAlignment="Top" Width="162" SelectionChanged="comboBox_SelectionChanged"/>
+            <Button x:Name="ButtonVulkan_Copy" Content="Play" HorizontalAlignment="Left" Margin="599,296,0,0" VerticalAlignment="Top" Height="49" Width="162" RenderTransformOrigin="1,1" ToolTip="Launch the game with Vulkan" ToolTipService.ShowDuration="5000" Click="OpenVulkan"/>
+            <Button x:Name="ButtonVulkan_Copy1" Content="DirectX 11" HorizontalAlignment="Left" Margin="38,296,0,0" VerticalAlignment="Top" Height="49" Width="162" RenderTransformOrigin="1,1" ToolTip="Launch the game with Vulkan" ToolTipService.ShowDuration="5000" Click="OpenVulkan"/>
+            <Button x:Name="ButtonVulkan_Copy2" Content="DirectX 11" HorizontalAlignment="Left" Margin="238,296,0,0" VerticalAlignment="Top" Height="49" Width="162" RenderTransformOrigin="1,1" ToolTip="Launch the game with Vulkan" ToolTipService.ShowDuration="5000" Click="OpenVulkan"/>
             <!--Button-Vulkan-->
         </Grid>
     </DockPanel>
