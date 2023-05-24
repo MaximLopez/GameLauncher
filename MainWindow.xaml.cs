@@ -19,8 +19,12 @@ namespace GameLauncher
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// 
+
     public partial class MainWindow : Window
     {
+
+        public string gameName = "TheStrangeLaboratory.exe";
         public MainWindow()
         {
             InitializeComponent();
@@ -63,19 +67,19 @@ namespace GameLauncher
 
         private void OpenD3D11(object sender, RoutedEventArgs e)
         {
-            Launcher.LaunchGame("TheStrangeLaboratory.exe","-D3D11"); /*Launch the game with argument -D3D11*/
+            Launcher.LaunchGame(gameName,"-D3D11"); /*Launch the game with argument -D3D11*/
             System.Windows.Application.Current.Shutdown();
         }
 
         private void OpenD3D12(object sender, RoutedEventArgs e)
         {
-            Launcher.LaunchGame("TheStrangeLaboratory.exe", "-D3D12"); /*Launch the game with argument -D3D12*/
+            Launcher.LaunchGame(gameName, "-D3D12"); /*Launch the game with argument -D3D12*/
             System.Windows.Application.Current.Shutdown();
         }
 
         private void OpenVulkan(object sender, RoutedEventArgs e)
         {
-            Launcher.LaunchGame("TheStrangeLaboratory.exe", "-vulkan"); /*Launch the game with argument -vulkan*/
+            Launcher.LaunchGame(gameName, "-vulkan"); /*Launch the game with argument -vulkan*/
             System.Windows.Application.Current.Shutdown();
         }
 

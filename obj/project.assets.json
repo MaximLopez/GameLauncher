@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maxim\\Documents\\Repository\\GameLauncher\\GameLauncher.csproj",
+      "projectUniqueName": "E:\\Game developement\\GameLauncher\\GameLauncher.csproj",
       "projectName": "GameLauncher",
-      "projectPath": "C:\\Users\\maxim\\Documents\\Repository\\GameLauncher\\GameLauncher.csproj",
+      "projectPath": "E:\\Game developement\\GameLauncher\\GameLauncher.csproj",
       "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maxim\\Documents\\Repository\\GameLauncher\\obj\\",
+      "outputPath": "E:\\Game developement\\GameLauncher\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,7 +46,7 @@
     "frameworks": {
       "net48": {
         "targetAlias": "net48",
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
